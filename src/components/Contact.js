@@ -11,7 +11,7 @@ class Contact extends Component  {
       <div className='contact-body'>
         <Grid className="contact-grid">
           <Cell col={6}>
-            <Bounce><h2>Get in touch</h2></Bounce>
+            <h2>Get in touch</h2>
             <hr/>
             <Bounce>
             <img
@@ -29,7 +29,7 @@ class Contact extends Component  {
           </Cell>
 
           <Cell col={6}>
-            <Bounce><h2>Contact Info</h2></Bounce>
+            <h2>Contact Info</h2>
             <hr/>
 
             <div className="contact-list">
