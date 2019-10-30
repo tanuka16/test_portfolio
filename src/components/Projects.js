@@ -27,7 +27,7 @@ class Projects extends Component  {
             </CardTitle>
 
             <CardText>
-              <p style={{fontWeight:'bold'}}>Ruby on Rails + React.js</p>
+              <p style={{fontWeight:'bold'}}>Ruby on Rails + React.js + HTML + CSS</p>
               DoNation is a charity app, which allows users to research numerous charitable organizations to award donations. Users can also make use of the customer service chatbot for instructions.
             </CardText>
 
@@ -44,7 +44,7 @@ class Projects extends Component  {
             </CardTitle>
 
             <CardText>
-              <p style={{fontWeight:'bold'}}>Ruby on Rails</p>
+              <p style={{fontWeight:'bold'}}>Ruby on Rails + Bootstrap + CSS</p>
               House of Shoes is a shoe wish-list app, it holds different kinds of shoes. Users can create an account and add their favorite shoes in their wish list.
             </CardText>
 
@@ -55,6 +55,38 @@ class Projects extends Component  {
         </Card>
 
         {/* project 3 */}
+        <Card className='card' shadow={5} style={{minWidth:'450', mergin: 'auto'}}>
+            <CardTitle style={{color: '#fff', fontWeight:'bold', height: '176px', background: 'url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/En2e4Hm-796x398.jpg) center/ cover'}}>
+              <h3 style={{marginTop:'150px'}}>VideoTube</h3>
+            </CardTitle>
+
+            <CardText>
+              <p style={{fontWeight:'bold'}}>React.js + Bootstrap + CSS</p>
+              VideoTube is a single page video search application, allows a user to search for any possible videos, select it and hit 'play' to watch it.
+            </CardText>
+            <CardActions className="buttons" border>
+              <Button href="https://github.com/tanuka16/VideoTube-react" target='_blank' colored>GitHub</Button>
+              {/*<Button colored>Live Demo</Button>*/}
+            </CardActions>
+        </Card>
+
+        {/* project 4 */}
+        <Card className='card' shadow={5} style={{minWidth:'450', mergin: 'auto'}}>
+            <CardTitle style={{color: '#fff', fontWeight:'bold', height: '176px', background: 'url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/En2e4Hm-796x398.jpg) center/ cover'}}>
+              <h3 style={{marginTop:'150px'}}>Alien Invaders</h3>
+            </CardTitle>
+
+            <CardText>
+              <p style={{fontWeight:'bold'}}>JavaScript</p>
+              Alien Invader is a single page video game app, which allows a player to shoot aliens, preventing them from reaching the bottom of the screen.
+            </CardText>
+            <CardActions className="buttons" border>
+              <Button href="https://github.com/tanuka16/JS-AlienInvaders" target='_blank' colored>GitHub</Button>
+              {/*<Button colored>Live Demo</Button>*/}
+            </CardActions>
+        </Card>
+
+        {/* project 5 */}
         <Card className='card' shadow={5} style={{minWidth:'450', mergin: 'auto'}}>
             <CardTitle style={{color: '#fff', fontWeight:'bold', height: '176px', background: 'url(https://miro.medium.com/max/710/1*9hd_8qR0CMZ8L0pVbFLjDw.png) center/ cover'}}>
               <h3 style={{marginTop:'150px'}}>Instagram Lite</h3>
@@ -69,6 +101,8 @@ class Projects extends Component  {
               {/*<Button colored>Live Demo</Button>*/}
             </CardActions>
         </Card>
+
+
         </div>
       )
       } else if(this.state.activeTab === 1){
