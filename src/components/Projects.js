@@ -211,6 +211,18 @@ class Projects extends Component  {
             <Button href="https://medium.com/@tanuka.das12/set-up-rails-model-ba36db24bd76" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
+        {/* blog 8 */}
+        <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
+          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          </CardTitle>
+          <CardText>
+            <h5 style={{fontWeight:'bold', color: 'black'}}>Set up Rails Controller</h5>
+            Let’s talk about forms!
+          </CardText>
+          <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
+            <Button href="https://medium.com/@tanuka.das12/set-up-rails-controller-bd701198a4f1" target='_blank' raised>Medium</Button>
+          </CardActions>
+        </Card>
         </div>
 
       )
