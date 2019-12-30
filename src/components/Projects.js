@@ -148,6 +148,31 @@ class Projects extends Component  {
             <Button href="https://medium.com/@tanuka.das12/react-forms-bb67b9bc7b8e" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
+
+        {/* blog 4 */}
+        <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
+          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          </CardTitle>
+          <CardText>
+            <h5 style={{fontWeight:'bold', color: 'black'}}>React.js — Manage States</h5>
+            Let’s talk about forms!
+          </CardText>
+          <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
+            <Button href="https://medium.com/@tanuka.das12/react-js-manage-states-87830a369f0" target='_blank' raised>Medium</Button>
+          </CardActions>
+        </Card>
+        {/* blog 5 */}
+        <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
+          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          </CardTitle>
+          <CardText>
+            <h5 style={{fontWeight:'bold', color: 'black'}}>Components Architecture</h5>
+            Let’s talk about forms!
+          </CardText>
+          <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
+            <Button href="https://medium.com/@tanuka.das12/components-architecture-734cca8bc3ab" target='_blank' raised>Medium</Button>
+          </CardActions>
+        </Card>
         </div>
 
       )
@@ -165,6 +190,7 @@ class Projects extends Component  {
           <Tab>Blogs</Tab>
 
         </Tabs>
+
           <Grid>
             <Cell col={12}>
             <Pulse>
