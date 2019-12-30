@@ -173,6 +173,19 @@ class Projects extends Component  {
             <Button href="https://medium.com/@tanuka.das12/components-architecture-734cca8bc3ab" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
+
+        {/* blog 5 */}
+        <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
+          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          </CardTitle>
+          <CardText>
+            <h5 style={{fontWeight:'bold', color: 'black'}}>Rails : Flash Hash</h5>
+            Let’s talk about forms!
+          </CardText>
+          <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
+            <Button href="https://medium.com/@tanuka.das12/rails-flash-hash-23a7126e20ab" target='_blank' raised>Medium</Button>
+          </CardActions>
+        </Card>
         </div>
 
       )
