@@ -155,7 +155,8 @@ class Projects extends Component  {
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>React.js — Manage States</h5>
-            Let’s talk about forms!
+            In React state is simply data that its component maintains, which means the component can change its value. State is a class instant..
+            <a href="https://medium.com/@tanuka.das12/react-js-manage-states-87830a369f0" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
             <Button href="https://medium.com/@tanuka.das12/react-js-manage-states-87830a369f0" target='_blank' raised>Medium</Button>
@@ -167,7 +168,8 @@ class Projects extends Component  {
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Components Architecture</h5>
-            Let’s talk about forms!
+            React is designed around the concept of reusable components. Just like you see in this app layout, how each square...
+            <a href="https://medium.com/@tanuka.das12/components-architecture-734cca8bc3ab" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
             <Button href="https://medium.com/@tanuka.das12/components-architecture-734cca8bc3ab" target='_blank' raised>Medium</Button>
@@ -180,7 +182,8 @@ class Projects extends Component  {
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Rails : Flash Hash</h5>
-            Let’s talk about forms!
+            Flash hash is used to display messages when we create, delete, or update a subject. Inside this create method, we will check...
+            <a href="https://medium.com/@tanuka.das12/rails-flash-hash-23a7126e20ab" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
             <Button href="https://medium.com/@tanuka.das12/rails-flash-hash-23a7126e20ab" target='_blank' raised>Medium</Button>
@@ -192,7 +195,8 @@ class Projects extends Component  {
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Rails API From Scratch</h5>
-            Let’s talk about forms!
+            Step by step process of creating rails API...
+            <a href="https://medium.com/@tanuka.das12/rails-api-from-scratch-1e109cd2580d" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
             <Button href="https://medium.com/@tanuka.das12/rails-api-from-scratch-1e109cd2580d" target='_blank' raised>Medium</Button>
@@ -205,19 +209,21 @@ class Projects extends Component  {
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Set up Rails Model</h5>
-            Let’s talk about forms!
+            A model is a description of what the app is and what it can do. Basically it defines...
+            <a href="https://medium.com/@tanuka.das12/set-up-rails-model-ba36db24bd76" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
             <Button href="https://medium.com/@tanuka.das12/set-up-rails-model-ba36db24bd76" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
-        {/* blog 8 */}
+        {/* blog 9 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
           <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Set up Rails Controller</h5>
-            Let’s talk about forms!
+            The controller does the heavy lifting when the interaction happens between the model...
+            <a href="https://medium.com/@tanuka.das12/set-up-rails-controller-bd701198a4f1" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
             <Button href="https://medium.com/@tanuka.das12/set-up-rails-controller-bd701198a4f1" target='_blank' raised>Medium</Button>
