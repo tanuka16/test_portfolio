@@ -67,7 +67,7 @@ class Contact extends Component  {
           <div style={{paddingTop: '95px'}}>
           <Cell col={12}>
             <footer style={{color:"grey", textAlign:'center'}}>
-            © Tanuka Das. All rights reserved except the logos, which belong to the respective companies.
+            © Tanuka Das. All rights reserved.
             </footer>
           </Cell>
           </div>

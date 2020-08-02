@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main'
 import {Link} from 'react-router-dom';
 
-class App extends Component {
-  render() {
+function App() {
   return (
     <div className="demo-big-content">
     <Layout>
@@ -16,7 +15,7 @@ class App extends Component {
                 <Link to="/Projects" style={{fontWeight:'bold', fontSize: "15px"}}>Projects</Link>
                 <Link to="/Contact" style={{fontWeight:'bold', fontSize: "15px"}}>Contact</Link>
                 <Link to="/Resume" style={{fontWeight:'bold', fontSize: "15px"}}>Resume</Link>
-
+                {/* <Link to="/Resume">Resume</Link>*/}
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color:'black',fontWeight:"bold", fontSize:'30px'  }} to="/">Tanuka Das</Link>}>
@@ -26,7 +25,7 @@ class App extends Component {
                 <Link to="/Projects" style={{fontWeight:'bold', fontSize: "15px"}}>Projects</Link>
                 <Link to="/Contact" style={{fontWeight:'bold', fontSize: "15px"}}>Contact</Link>
                 <Link to="/Resume" style={{fontWeight:'bold', fontSize: "15px"}}>Resume</Link>
-
+                {/* <Link to="/Resume">Resume</Link>*/}
             </Navigation>
         </Drawer>
         <Content>
@@ -37,7 +36,5 @@ class App extends Component {
 </div>
   )
 }
-}
-
 
 export default App;

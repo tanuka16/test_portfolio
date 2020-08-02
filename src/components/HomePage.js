@@ -52,9 +52,18 @@ class HomePage extends Component  {
                 </div>
               </div></Bounce>
           </Cell>
+          {/*<div className="clouds">
+            <Cell>
+              <img src="cloud1.png" style={{'--i': '1'}}/>
+              <img src="cloud2.png" style={{'--i': '2'}}/>
+              <img src="cloud3.png" style={{'--i': '3'}}/>
+              <img src="cloud4.png" style={{'--i': '4'}}/>
+              <img src="cloud5.png" style={{'--i': '5'}}/>
+            </Cell>
+          </div>*/}
         </Grid>
         <footer style={{color:"grey", textAlign:'center', paddingTop: '35px'}}>
-          © Tanuka Das. All rights reserved except the logos, which belong to the respective companies.
+          © Tanuka Das. All rights reserved.
         </footer>
       </div>
     )

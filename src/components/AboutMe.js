@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Cell} from 'react-mdl'; 
+import {Grid, Cell} from 'react-mdl';
 import styled, { keyframes } from 'styled-components';
 import { bounceIn } from 'react-animations';
 
@@ -61,7 +61,7 @@ class AboutMe extends Component  {
         </Grid>
 
         <footer style={{color:"grey", textAlign:'center', paddingTop: '25px'}}>
-          © Tanuka Das. All rights reserved except the logos, which belong to the respective companies.
+          © Tanuka Das. All rights reserved.
         </footer>
 
       </div>

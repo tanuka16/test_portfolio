@@ -22,8 +22,8 @@ class Projects extends Component  {
         <hr/>
         {/* project 1 */}
         <Card className='card' shadow={5} style={{minWidth:'450', mergin: 'auto'}}>
-            <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(donationApp.png) center/ cover'}}>
-              <h3 style={{marginTop:'150px'}}>DoNation</h3>
+            <CardTitle style={{color: '#fff', fontSize: '20px', height: '10em', background: 'url(donationApp.png) center/ cover'}}>
+              {/*<h3 style={{marginTop:'150px'}}></h3>*/}
             </CardTitle>
 
             <CardText>
@@ -39,8 +39,8 @@ class Projects extends Component  {
 
         {/* project 2 */}
         <Card className='card' shadow={5} style={{minWidth:'450', merginBottom: '20px'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(shoeApp.png) center/ cover'}}>
-              <h3 style={{marginTop:'150px'}}>House of Shoes</h3>
+            <CardTitle style={{color: '#fff', fontSize: '20px', height: '10em', background: 'url(houseOfShoesApp.png) center/ cover'}}>
+              {/* <h3 style={{marginTop:'150px'}}></h3>*/}
             </CardTitle>
 
             <CardText>
@@ -56,7 +56,7 @@ class Projects extends Component  {
 
         {/* project 3 */}
         <Card className='card' shadow={5} style={{minWidth:'450', mergin: 'auto'}}>
-            <CardTitle style={{color: '#fff', fontWeight:'bold', height: '176px', background: 'url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/En2e4Hm-796x398.jpg) center/ cover'}}>
+            <CardTitle style={{color: '#fff', fontSize: '20px', height: '10em', background: 'url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/En2e4Hm-796x398.jpg) center/ cover'}}>
               <h3 style={{marginTop:'150px'}}>VideoTube</h3>
             </CardTitle>
 
@@ -72,7 +72,7 @@ class Projects extends Component  {
 
         {/* project 4 */}
         <Card className='card' shadow={5} style={{minWidth:'450', mergin: 'auto'}}>
-            <CardTitle style={{color: '#fff', fontWeight:'bold', height: '176px', background: 'url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/En2e4Hm-796x398.jpg) center/ cover'}}>
+            <CardTitle style={{color: '#fff', fontSize: '20px', height: '10em', background: 'url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/En2e4Hm-796x398.jpg) center/ cover'}}>
               <h3 style={{marginTop:'150px'}}>Alien Invaders</h3>
             </CardTitle>
 
@@ -88,7 +88,7 @@ class Projects extends Component  {
 
         {/* project 5 */}
         <Card className='card' shadow={5} style={{minWidth:'450', mergin: 'auto'}}>
-            <CardTitle style={{color: '#fff', fontWeight:'bold', height: '176px', background: 'url(https://miro.medium.com/max/710/1*9hd_8qR0CMZ8L0pVbFLjDw.png) center/ cover'}}>
+            <CardTitle style={{color: '#fff', fontSize: '20px', height: '10em', background: 'url(https://miro.medium.com/max/710/1*9hd_8qR0CMZ8L0pVbFLjDw.png) center/ cover'}}>
               <h3 style={{marginTop:'150px'}}>Instagram Lite</h3>
             </CardTitle>
 
@@ -110,13 +110,57 @@ class Projects extends Component  {
 
         <div className="projects-grid"  style={{justifyContent: 'center', padding: "30px 20px 0px 20px"}}>
 
+        {/* blog 12 */}
+        <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '50%', width: '100%', background: 'url(blog12.png) center/ cover'}}>
+          </CardTitle>
+          <CardText>
+            <h5 style={{fontWeight:'bold', color: 'black'}}>Markdown — An Easy & Fast to Learn Markup Language</h5>
+            You probably never heard about it, or you did, but never thought about using it, or maybe you did use it and loved it as well...
+            <a href="https://medium.com/@tanuka.das12/markdown-a-easier-fast-to-learn-markup-language-305f1faaca5d?source=friends_link&sk=3c8b59ed69f0f34c4d86483d1bf40c16" target='_blank'>more</a>
+          </CardText>
+          <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
+            <Button href="https://medium.com/@tanuka.das12/markdown-a-easier-fast-to-learn-markup-language-305f1faaca5d?source=friends_link&sk=3c8b59ed69f0f34c4d86483d1bf40c16" target='_blank' raised>Medium</Button>
+          </CardActions>
+        </Card>
+
+        {/* blog 11 */}
+        <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(blog11.png) center/ cover'}}>
+          </CardTitle>
+          <CardText>
+            <h5 style={{fontWeight:'bold', color: 'black'}}>Data Structure — Linked List | SINGLY LINKED LIST PRACTICE(LeetCode)</h5>
+            A fundamental data structure used to solve many algorithms problems...
+            <a href="https://medium.com/@tanuka.das12/data-structure-linked-list-singly-linked-list-practice-leetcode-d4ca850f8d14?source=friends_link&sk=185f31920048ae28b6cce057730ebb88" target='_blank'>more</a>
+          </CardText>
+          <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
+            <Button href="https://medium.com/@tanuka.das12/data-structure-linked-list-singly-linked-list-practice-leetcode-d4ca850f8d14?source=friends_link&sk=185f31920048ae28b6cce057730ebb88" target='_blank' raised>Medium</Button>
+          </CardActions>
+        </Card>
+
+
+        {/* blog 10 */}
+        <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(blog10.png) center/ cover'}}>
+          </CardTitle>
+          <CardText>
+            <h5 style={{fontWeight:'bold', color: 'black'}}>Debug JS Code with DevTool Network Tab</h5>
+            In this article, I discuss the use of the network tab in Chrome DevTool inspect.The network panel is really useful for timing...
+            <a href="https://medium.com/@tanuka.das12/debug-js-code-with-devtool-network-tab-b86352071b38?source=friends_link&sk=16b20edf9b5e789a3d6b7395ffcb3c11" target='_blank'>more</a>
+          </CardText>
+          <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
+            <Button href="https://medium.com/@tanuka.das12/debug-js-code-with-devtool-network-tab-b86352071b38?source=friends_link&sk=16b20edf9b5e789a3d6b7395ffcb3c11" target='_blank' raised>Medium</Button>
+          </CardActions>
+        </Card>
+
+
         {/* blog 1 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(http://f201437.wpengine.com/wp-content/uploads/2014/10/FormsResourcesImage.jpg) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(HTML&Rails_forms.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>HTML form to form_with in Rails</h5>
-            Let’s talk about forms!
+            Let’s talk about forms!Why are they important? Forms are one of the main points of interaction between a web site or application and a user.
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
             <Button href="https://medium.com/@tanuka.das12/html-forms-to-html-forms-in-rails-4a345d9aaed2" target='_blank' raised>Medium</Button>
@@ -124,11 +168,11 @@ class Projects extends Component  {
         </Card>
         {/* blog 2 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://commotionengine.com/wp-content/uploads/2018/08/Linkedin-Video-Ad-Header.jpg) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(LinledIn1.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Optimize Your LinkedIn Profile — New Developers</h5>
-            With that kind of reach as professional...
+            With that kind of reach as professional, we can’t afford to not take LinkedIn seriously This blog focuses on optimizing the LinkedIn...
             <a href="https://medium.com/@tanuka.das12/optimization-of-linkedin-profile-for-new-developers-203a566be95" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
@@ -137,11 +181,11 @@ class Projects extends Component  {
         </Card>
         {/* blog 3 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(blog3.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>React Forms</h5>
-            The aim of this blog is to better understand how to create a form in React. In this...
+            The aim of this blog is to better understand how to create a form in React. In this example, I’m creating a new blog post. This is a basic form structure...
             <a href="https://medium.com/@tanuka.das12/react-forms-bb67b9bc7b8e" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
@@ -151,7 +195,7 @@ class Projects extends Component  {
 
         {/* blog 4 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>React.js — Manage States</h5>
@@ -164,7 +208,7 @@ class Projects extends Component  {
         </Card>
         {/* blog 5 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Components Architecture</h5>
@@ -178,7 +222,7 @@ class Projects extends Component  {
 
         {/* blog 6 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Rails : Flash Hash</h5>
@@ -191,7 +235,7 @@ class Projects extends Component  {
         </Card>
         {/* blog 7 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Rails API From Scratch</h5>
@@ -205,7 +249,7 @@ class Projects extends Component  {
 
         {/* blog 8 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Set up Rails Model</h5>
@@ -218,7 +262,7 @@ class Projects extends Component  {
         </Card>
         {/* blog 9 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', fontSize: '20px', height: '176px', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Set up Rails Controller</h5>
@@ -258,7 +302,7 @@ class Projects extends Component  {
       </div>
 
         <footer style={{color:"grey", textAlign:'center', paddingTop: '35px', paddingBottom: '15px'}}>
-        © Tanuka Das. All rights reserved except the logos, which belong to the respective companies.
+        © Tanuka Das. All rights reserved.
         </footer>
       </div>
     )

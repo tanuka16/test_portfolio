@@ -9,7 +9,8 @@
   background: #2980B9;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  justify-content: center;
+  display: flex;
   text-align: center;
   align-items: center;
   /* position: fixed; */
@@ -17,7 +18,44 @@
   left: 0;
   width: 100%;
   height: 100% !important;
+
 }
+
+/* moving annimation starts */
+/* .home-grid .clouds */
+/* .container .clouds{
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container .clouds img{
+  display: flex;
+  align-items: flex-end !important;
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  /* justify-content: flex-end; */
+  /* animation: animate calc(8s * var(--i)) linear infinite; */
+/* } */
+
+
+/* @keyframes animate {
+  0%
+  {
+    transform: translateX(-100%);
+  }
+  100%
+  {
+    transform: translateX(100%);
+  }
+
+}  */
+/* moving annimation ends */
 
 .avatar-img{
   height: 250px;
@@ -30,7 +68,7 @@
 
 }
 .banner-text{
-  background-color: black;
+   background-color: black;
    opacity: .5;
    border-radius: 20px;
    width: 80vw;
@@ -61,13 +99,14 @@
 }
 .social-links {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 50%;
   margin: auto;
   margin-bottom: 15px;
   margin-top: 15px;
   border-radius: 8px;
   color: #4A00E0;
+  justify-content: center;
 
 }
 
@@ -82,18 +121,21 @@
 .projects-grid {
   /* background: #2980B9;  /* fallback for old browsers */
   /* background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  margin-top: 0px;
+  /* background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
  }
 
 .card {
+  overflow: hidden;
+
+  position: relative;
+  margin: 0.5rem;
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
-  margin-left: 30px;
   margin-bottom: 30px;
 }
 
@@ -115,6 +157,7 @@
 .tabs {
   background: '#2980B9';
 }
+
 /* Contact page style */
 
 .contact-body{
@@ -159,6 +202,7 @@
 .contact-list i{
   font-size: 66px;
   padding-right: 3rem;
+  /* justify-content: center; */
 
 }
 /* about me page style */
@@ -200,14 +244,6 @@
   width: 50%;
   margin: auto;
 }
-
-
-
-
-
-
-
-
 
 .btn {
   flex: auto;
