@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tanukaDasPortfolio/static/css/main.4f64ccd5.chunk.css",
+    "main.js": "/tanukaDasPortfolio/static/js/main.f7d06eb8.chunk.js",
+    "main.js.map": "/tanukaDasPortfolio/static/js/main.f7d06eb8.chunk.js.map",
+    "runtime-main.js": "/tanukaDasPortfolio/static/js/runtime-main.4a1cdddb.js",
+    "runtime-main.js.map": "/tanukaDasPortfolio/static/js/runtime-main.4a1cdddb.js.map",
+    "static/css/2.e4346227.chunk.css": "/tanukaDasPortfolio/static/css/2.e4346227.chunk.css",
+    "static/js/2.b21f9575.chunk.js": "/tanukaDasPortfolio/static/js/2.b21f9575.chunk.js",
+    "static/js/2.b21f9575.chunk.js.map": "/tanukaDasPortfolio/static/js/2.b21f9575.chunk.js.map",
+    "index.html": "/tanukaDasPortfolio/index.html",
+    "precache-manifest.6754c9d87aa963daab1213c6863899e6.js": "/tanukaDasPortfolio/precache-manifest.6754c9d87aa963daab1213c6863899e6.js",
+    "service-worker.js": "/tanukaDasPortfolio/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/tanukaDasPortfolio/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.4f64ccd5.chunk.css.map": "/tanukaDasPortfolio/static/css/main.4f64ccd5.chunk.css.map",
+    "static/js/2.b21f9575.chunk.js.LICENSE.txt": "/tanukaDasPortfolio/static/js/2.b21f9575.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a1cdddb.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.b21f9575.chunk.js",
+    "static/css/main.4f64ccd5.chunk.css",
+    "static/js/main.f7d06eb8.chunk.js"
+  ]
+}
