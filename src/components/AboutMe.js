@@ -13,7 +13,7 @@ class AboutMe extends Component  {
           <Cell col={12}>
             <img
             /*src= "https://freepngimg.com/thumb/wonder_woman/20973-1-wonder-woman-picture.png"*/
-              src= "pic5.jpg"
+              src= "images/pic5.jpg"
               alt='avatar'
               className='avatar-img'
               />

@@ -16,7 +16,7 @@ class HomePage extends Component  {
         <Grid className="home-grid">
           <Cell col={12}>
             <img
-              src= {process.env.PUBLIC_URL + '/pic5.jpg'}
+              src='images/pic5.jpg'
               alt='avatar'
               className='avatar-img'
               />

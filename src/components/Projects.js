@@ -22,7 +22,7 @@ class Projects extends Component  {
         <hr/>
         {/* project 1 */}
         <Card className='card' shadow={5} style={{minWidth:'450', mergin: 'auto'}}>
-            <CardTitle style={{color: '#fff', fontSize: '20px', height: '10em', background: 'url(donationApp.png) center/ cover'}}>
+            <CardTitle style={{color: '#fff', fontSize: '20px', height: '10em', background: 'url(images/donationApp.png) center/ cover'}}>
               {/*<h3 style={{marginTop:'150px'}}></h3>*/}
             </CardTitle>
 
@@ -39,7 +39,7 @@ class Projects extends Component  {
 
         {/* project 2 */}
         <Card className='card' shadow={5} style={{minWidth:'450', merginBottom: '20px'}}>
-            <CardTitle style={{color: '#fff', fontSize: '20px', height: '10em', background: 'url(houseOfShoesApp.png) center/ cover'}}>
+            <CardTitle style={{color: '#fff', fontSize: '20px', height: '10em', background: 'url(images/houseOfShoesApp.png) center/ cover'}}>
               {/* <h3 style={{marginTop:'150px'}}></h3>*/}
             </CardTitle>
 
@@ -112,7 +112,7 @@ class Projects extends Component  {
 
         {/* blog 12 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '50%', width: '100%', background: 'url(blog12.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '50%', width: '100%', background: 'url(images/blog12.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Markdown — An Easy & Fast to Learn Markup Language</h5>
@@ -126,7 +126,7 @@ class Projects extends Component  {
 
         {/* blog 11 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(blog11.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/blog11.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Data Structure — Linked List | SINGLY LINKED LIST PRACTICE(LeetCode)</h5>
@@ -141,7 +141,7 @@ class Projects extends Component  {
 
         {/* blog 10 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(blog10.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/blog10.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Debug JS Code with DevTool Network Tab</h5>
@@ -156,7 +156,7 @@ class Projects extends Component  {
 
         {/* blog 1 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(HTML&Rails_forms.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/HTML&Rails_forms.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>HTML form to form_with in Rails</h5>
@@ -168,7 +168,7 @@ class Projects extends Component  {
         </Card>
         {/* blog 2 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(LinledIn1.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/LinledIn1.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Optimize Your LinkedIn Profile — New Developers</h5>
@@ -181,7 +181,7 @@ class Projects extends Component  {
         </Card>
         {/* blog 3 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(blog3.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/blog3.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>React Forms</h5>

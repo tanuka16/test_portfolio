@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tanuka16.github.io/tanukaDas_portfolio/",
+  
   "dependencies": {
     "react": "^16.9.0",
     "react-animations": "^1.0.0",

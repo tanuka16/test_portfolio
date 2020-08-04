@@ -15,7 +15,7 @@ class Contact extends Component  {
             <hr/>
             <Bounce>
             <img
-              src="pic5.jpg"
+              src="images/pic5.jpg"
               alt='avatar'
               className='avatar-img'
             />
