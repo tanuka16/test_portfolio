@@ -269,9 +269,8 @@ class Projects extends Component  {
             <Button href="https://medium.com/@tanuka.das12/set-up-rails-controller-bd701198a4f1" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
-        <CardActions className="more-button" border>
-              <Button href="https://medium.com/@tanuka.das12" target='_blank' colored> More Articles</Button>
-        </CardActions>
+
+        <Button href="https://devwonderworld.com/" target='_blank' raised>Checkout more blogs on DevWonderWorld</Button>
         </div>
 
       )
