@@ -23,9 +23,12 @@ class AboutMe extends Component  {
 
                 <p>I am a Full Stack Web Developer, based in Jamaica, New York. I focus on implementing an intricate and detailed code.
                 My fascination in coding began by adding computer science courses to my undergraduate studies and grew with developing and building web applications.
-                Making a project go from a concept to life simultaneously challenges, intrigues and motivates me.</p>
+                Making a project go from a concept to life simultaneously challenges, intrigues and motivates me. Apart from coding I write technical blogs on
+                <a href="http://www.devwonderworld.com" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> devwonderworld</a>,
+                <a href="https://medium.com/@tanuka.das12" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> medium</a>, and
+                <a href="https://dev.to/tanuka16" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> dev</a>.</p>
 
-                <p>When I am not working, I love reading books, hiking, and exploring new places. </p>
+                <p>When I am not working, I love spending time with my family, reading books, hiking, and exploring new places. </p>
                 <br/>
 
                 <div className="social-links">
@@ -41,9 +44,14 @@ class AboutMe extends Component  {
                       <i className="fa fa-github-square" aria-hidden="true"/>
                     </a>
 
-                  {/* Medium */}
+                  {/* Medium
                     <a href="https://medium.com/@tanuka.das12" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-medium" aria-hidden="true"/>
+                    </a>
+                  */}
+                  {/* blogging website */}
+                    <a href="https://devwonderworld.com" rel="noopener noreferrer" target="_blank">
+                      <i className="fa fa-bold" aria-hidden="true"/>
                     </a>
 
                   {/* Gmail */}

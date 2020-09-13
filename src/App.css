@@ -153,6 +153,14 @@
   box-shadow: 0 0 20px #08c;
   justify-content: space-between;
 }
+.more-button{
+  display: block;
+  margin: auto;
+  box-shadow: 0 0 20px #08c;
+  display: flex;
+  text-align: center;
+  /* justify-content: space-between; */
+}
 
 .tabs {
   background: '#2980B9';

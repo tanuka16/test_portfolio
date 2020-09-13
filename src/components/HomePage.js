@@ -30,7 +30,7 @@ class HomePage extends Component  {
                 <div className="social-links">
 
                   {/* LinkedIn */}
-                    <a href="http://www.linkedin.com/in/tanuka-das" rel="noopener noreferrer" target="_blank">
+                    <a href="https://www.linkedin.com/in/tanuka-das" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-linkedin-square" aria-hidden="true"/>
 
                     </a>
@@ -40,9 +40,14 @@ class HomePage extends Component  {
                       <i className="fa fa-github-square" aria-hidden="true"/>
                     </a>
 
-                  {/* Medium */}
+                  {/* Medium
                     <a href="https://medium.com/@tanuka.das12" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-medium" aria-hidden="true"/>
+                    </a>
+                    */}
+                  {/* blogging website */}
+                    <a href="https://devwonderworld.com" rel="noopener noreferrer" target="_blank">
+                      <i className="fa fa-bold" aria-hidden="true"/>
                     </a>
 
                   {/* Gmail */}

@@ -96,10 +96,6 @@ class Projects extends Component  {
               <p style={{fontWeight:'bold'}}>Ruby</p>
               Instagram Lite is a social media app, allows users to create an account, post images, like pictures and add comments on other users account.
             </CardText>
-            <CardActions className="buttons" border>
-              <Button href="https://github.com/April17/module-one-final-project-guidelines-dumbo-web-051319" target='_blank' colored>GitHub</Button>
-              {/*<Button colored>Live Demo</Button>*/}
-            </CardActions>
         </Card>
 
 
@@ -273,7 +269,7 @@ class Projects extends Component  {
             <Button href="https://medium.com/@tanuka.das12/set-up-rails-controller-bd701198a4f1" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
-        <CardActions className="buttons" border>
+        <CardActions className="more-button" border>
               <Button href="https://medium.com/@tanuka.das12" target='_blank' colored> More Articles</Button>
         </CardActions>
         </div>
@@ -298,7 +294,7 @@ class Projects extends Component  {
             <Cell col={12}>
             <Pulse>
               <div className="content">{this.toggleCategories()}</div>
-              </Pulse>
+            </Pulse>
             </Cell>
           </Grid>
 
