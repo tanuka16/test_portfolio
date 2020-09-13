@@ -13,32 +13,36 @@ class Contact extends Component  {
           <Cell col={6}>
             <h2>Get in touch</h2>
             <hr/>
-            <Bounce>
+          {/*  <Bounce>
             <img
               src="images/pic5.jpg"
               alt='avatar'
               className='avatar-img'
             />
-            </Bounce>
+            </Bounce> */}
           <Bounce>
             <p style={{width:"75%", margin: 'auto', paddingTop:'1em'}}>
 
-            If you would like to get in touch, talk about projects or just say hi, feel free to email or send me a message on LinkedIn.
+            If you would like to get in touch, to work on projects, to hire me or just to say hi, feel free to email or send me a message on LinkedIn.
             </p>
           </Bounce>
           </Cell>
 
           <Cell col={6}>
-            <h2>Contact Info</h2>
+            <h2>Community</h2>
             <hr/>
-
+            <p> Here are few communities I am activly part of.  </p>
             <div className="contact-list">
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px', fontFamily:'Anton'}}>
-                  <i className="fa fa-envelope" aria-hidden='true' style={{color:'Dodgerblue'}}/>
+                  <img
+                    src="images/LGP-Logo.png"
+                    alt='avatar'
+                    className='logo-img'
+                  />
                   <a href = "mailto: tanuka.das12@gmail.com" rel="noopener noreferrer" style={{color:'black'}}>
-                  Email Me!</a>
+                  Ladies Get Paid</a>
 
                   </ListItemContent>
                 </ListItem>

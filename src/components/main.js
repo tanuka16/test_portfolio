@@ -3,6 +3,7 @@ import HomePage from './HomePage';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Projects from './Projects';
+import Blog from './Blog';
 import Resume from './Resume';
 import {Switch, Route} from 'react-router-dom'
 
@@ -12,6 +13,7 @@ const Main = () => (
     <Route  path="/AboutMe" component={AboutMe} />
     <Route  path="/Contact" component={Contact} />
     <Route  path="/Projects" component={Projects} />
+    <Route  path="/Blog" component={Blog} />
     <Route  path="/Resume" component={Resume} />
   </Switch>
 )
