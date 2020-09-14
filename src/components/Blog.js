@@ -20,10 +20,10 @@ class Blog extends Component  {
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Markdown — An Easy & Fast to Learn Markup Language</h5>
             You probably never heard about it, or you did, but never thought about using it, or maybe you did use it and loved it as well...
-            <a href="https://medium.com/@tanuka.das12/markdown-a-easier-fast-to-learn-markup-language-305f1faaca5d?source=friends_link&sk=3c8b59ed69f0f34c4d86483d1bf40c16" target='_blank'>more</a>
+            <a href="https://devwonderworld.com/markdown-an-easy-fast-to-learn-markup-language/" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
-            <Button href="https://medium.com/@tanuka.das12/markdown-a-easier-fast-to-learn-markup-language-305f1faaca5d?source=friends_link&sk=3c8b59ed69f0f34c4d86483d1bf40c16" target='_blank' raised>Medium</Button>
+            <Button href="https://devwonderworld.com/markdown-an-easy-fast-to-learn-markup-language/" target='_blank' raised>Dev Wonder World</Button>
           </CardActions>
         </Card>
 
@@ -34,10 +34,10 @@ class Blog extends Component  {
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Data Structure — Linked List | SINGLY LINKED LIST PRACTICE(LeetCode)</h5>
             A fundamental data structure used to solve many algorithms problems...
-            <a href="https://medium.com/@tanuka.das12/data-structure-linked-list-singly-linked-list-practice-leetcode-d4ca850f8d14?source=friends_link&sk=185f31920048ae28b6cce057730ebb88" target='_blank'>more</a>
+            <a href="https://devwonderworld.com/data-structure-linked-list-singly-linked-list-practiceleetcode/" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
-            <Button href="https://medium.com/@tanuka.das12/data-structure-linked-list-singly-linked-list-practice-leetcode-d4ca850f8d14?source=friends_link&sk=185f31920048ae28b6cce057730ebb88" target='_blank' raised>Medium</Button>
+            <Button href="https://devwonderworld.com/data-structure-linked-list-singly-linked-list-practiceleetcode/" target='_blank' raised>Dev Wonder World</Button>
           </CardActions>
         </Card>
 
@@ -49,15 +49,15 @@ class Blog extends Component  {
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Debug JS Code with DevTool Network Tab</h5>
             In this article, I discuss the use of the network tab in Chrome DevTool inspect.The network panel is really useful for timing...
-            <a href="https://medium.com/@tanuka.das12/debug-js-code-with-devtool-network-tab-b86352071b38?source=friends_link&sk=16b20edf9b5e789a3d6b7395ffcb3c11" target='_blank'>more</a>
+            <a href="https://devwonderworld.com/debug-js-code-with-devtool-network-tab/" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
-            <Button href="https://medium.com/@tanuka.das12/debug-js-code-with-devtool-network-tab-b86352071b38?source=friends_link&sk=16b20edf9b5e789a3d6b7395ffcb3c11" target='_blank' raised>Medium</Button>
+            <Button href="https://devwonderworld.com/debug-js-code-with-devtool-network-tab/" target='_blank' raised>Dev Wonder World</Button>
           </CardActions>
         </Card>
 
 
-        {/* blog 1 */}
+        {/* blog 9 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
           <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/HTML&Rails_forms.png) center/ cover'}}>
           </CardTitle>
@@ -69,7 +69,7 @@ class Blog extends Component  {
             <Button href="https://medium.com/@tanuka.das12/html-forms-to-html-forms-in-rails-4a345d9aaed2" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
-        {/* blog 2 */}
+        {/* blog 8 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
           <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/LinledIn1.png) center/ cover'}}>
           </CardTitle>
@@ -82,21 +82,25 @@ class Blog extends Component  {
             <Button href="https://medium.com/@tanuka.das12/optimization-of-linkedin-profile-for-new-developers-203a566be95" target='_blank' raised >Medium</Button>
           </CardActions>
         </Card>
-        {/* blog 3 */}
+        {/* blog 7 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
           <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/blog3.png) center/ cover'}}>
           </CardTitle>
           <CardText>
-            <h5 style={{fontWeight:'bold', color: 'black'}}>React Forms</h5>
+            <h5 style={{fontWeight:'bold', color: 'black'}}>How to Create Simple Forms in React?</h5>
             The aim of this blog is to better understand how to create a form in React. In this example, I’m creating a new blog post. This is a basic form structure...
-            <a href="https://medium.com/@tanuka.das12/react-forms-bb67b9bc7b8e" target='_blank'>more</a>
+            <a href="https://medium.com/@tanuka.das12/how-to-create-simple-forms-in-react-262da7aa6b5b?source=friends_link&sk=8ba1fef624ef4f3cf33e0dcdef8efb8c
+
+" target='_blank'>more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
-            <Button href="https://medium.com/@tanuka.das12/react-forms-bb67b9bc7b8e" target='_blank' raised>Medium</Button>
+            <Button href="https://medium.com/@tanuka.das12/how-to-create-simple-forms-in-react-262da7aa6b5b?source=friends_link&sk=8ba1fef624ef4f3cf33e0dcdef8efb8c
+
+" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
 
-        {/* blog 4 */}
+        {/* blog 6 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
           <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
@@ -123,7 +127,7 @@ class Blog extends Component  {
           </CardActions>
         </Card>
 
-        {/* blog 6 */}
+        {/* blog 4 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
           <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
@@ -136,7 +140,7 @@ class Blog extends Component  {
             <Button href="https://medium.com/@tanuka.das12/rails-flash-hash-23a7126e20ab" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
-        {/* blog 7 */}
+        {/* blog 3 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
           <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
@@ -150,7 +154,7 @@ class Blog extends Component  {
           </CardActions>
         </Card>
 
-        {/* blog 8 */}
+        {/* blog 2 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
           <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
@@ -163,7 +167,7 @@ class Blog extends Component  {
             <Button href="https://medium.com/@tanuka.das12/set-up-rails-model-ba36db24bd76" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
-        {/* blog 9 */}
+        {/* blog 1 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
           <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
           </CardTitle>
@@ -177,12 +181,12 @@ class Blog extends Component  {
           </CardActions>
         </Card>
 
-        <Button href="https://devwonderworld.com/" target='_blank' raised>Checkout more blogs on DevWonderWorld</Button>
+        <Button href="https://devwonderworld.com/" target='_blank' style={{backgroundColor: 'Dodgerblue', color:'white'}} raised>Explore Dev Wonder World</Button>
         </div>
 
       )
     }
- 
+
 
 
   render (){

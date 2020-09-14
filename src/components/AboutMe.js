@@ -6,7 +6,7 @@ import { bounceIn } from 'react-animations';
 
 const Bounce = styled.div`animation: 2s ${keyframes `${bounceIn}`} `;
 
-class AboutMe extends Component  {
+class About extends Component  {
   render (){
     return (
       <div className='contact-body'>
@@ -76,7 +76,7 @@ class AboutMe extends Component  {
                   alt='avatar'
                   className='logo-img'
                 />
-                <a href = "mailto: tanuka.das12@gmail.com" rel="noopener noreferrer" style={{color:'black'}}>
+                <a href = "https://www.ladiesgetpaid.com/" target="_blank" rel="noopener noreferrer" style={{color:'black'}}>
                 Ladies Get Paid</a>
 
                 </ListItemContent>
@@ -88,7 +88,7 @@ class AboutMe extends Component  {
                     alt='avatar'
                     className='logo-img'
                   />
-                  <a href = "mailto: tanuka.das12@gmail.com" rel="noopener noreferrer" style={{color:'black'}}>
+                  <a href = "https://www.globaltechwomen.com/" target="_blank" rel="noopener noreferrer" style={{color:'black'}}>
                    Global Tech Women</a>
 
                   </ListItemContent>
@@ -134,4 +134,4 @@ class AboutMe extends Component  {
   }
 }
 
-export default AboutMe;
+export default About;
