@@ -2,14 +2,12 @@ www.tanukadas.com
 
 ## Portfolio Website
 
+This is a portfolio site, showcasing my projects, blogs, resume, and contact info.
 
 ### Stack
 
 React, HTML, CSS
 
-### `npm test`
-
-This is a portfolio site, showcasing my projects, blogs, resume, and contact info.
 
 ### Future Functionalities
 - Change the host of the site
