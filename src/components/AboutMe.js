@@ -29,7 +29,7 @@ class About extends Component  {
             My fascination in coding began by adding computer science courses to my undergraduate studies and grew with developing and building web applications.
             Making a project go from a concept to life simultaneously challenges, intrigues and motivates me. Apart from coding I write technical blogs on
             <a href="http://www.devwonderworld.com" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> devwonderworld</a>,
-            <a href="https://medium.com/@tanuka.das12" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> medium</a>, and
+            <a href="https://tanuka-das12.medium.com/" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> medium</a>, and
             <a href="https://dev.to/tanuka16" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> dev</a>.
             <br/>
             When I am not working, I love spending time with my family, reading books, hiking, and exploring new places.
