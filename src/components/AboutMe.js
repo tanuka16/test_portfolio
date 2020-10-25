@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
-import { Button } from 'reactstrap';
+/*import { Button } from 'reactstrap';*/
 import styled, { keyframes } from 'styled-components';
 import { bounceIn } from 'react-animations';
 
@@ -23,7 +23,7 @@ class About extends Component  {
             </Bounce> */}
           <Bounce>
 
-            <p className="paragraph" style={{width:"85%", margin: 'auto', paddingTop:'1em', fontColor: '#7e7e7e;'}}>
+            <p className="paragraph" style={{width:"85%", margin: 'auto', paddingTop:'1em', fontColor: '#7e7e7e'}}>
 
             I am Tanuka Das, a Fullstack Developer, based in Jamaica, New York. I focus on implementing an intricate and detailed code.
             My fascination in coding began by adding computer science courses to my undergraduate studies and grew with developing and building web applications.
@@ -84,12 +84,12 @@ class About extends Component  {
                 <ListItem>
                   <ListItemContent style={{fontSize: '15px', fontFamily:'Anton'}}>
                   <img
-                    src="images/globalTechWomen.png"
+                    src="images/LeagueOfWomenCoders.png"
                     alt='avatar'
                     className='logo-img'
                   />
-                  <a href = "https://www.globaltechwomen.com/" target="_blank" rel="noopener noreferrer" style={{color:'black'}}>
-                   Global Tech Women</a>
+                  <a href = "http://lwc.tech/" target="_blank" rel="noopener noreferrer" style={{color:'black'}}>
+                   LEAGUE OF WOMEN CODERS</a>
 
                   </ListItemContent>
                 </ListItem>

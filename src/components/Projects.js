@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import {Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
 import styled, { keyframes } from 'styled-components';
 import { pulse } from 'react-animations';
 
@@ -106,6 +106,7 @@ class Projects extends Component  {
       <div>
         <div className="projects-grid" >
         {/* use the tabs for future projects
+          import {Tabs, Tab, CardMenu, IconButton} from 'react-mdl';
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })}ripple>
           <Tab>Projects</Tab>
           <Tab>Blogs</Tab>
