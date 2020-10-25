@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import {Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
 import styled, { keyframes } from 'styled-components';
 import { pulse } from 'react-animations';
 
@@ -102,7 +102,7 @@ class Blog extends Component  {
 
         {/* blog 6 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/blog6.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>React.js — Manage States</h5>
@@ -169,7 +169,7 @@ class Blog extends Component  {
         </Card>
         {/* blog 1 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/blog1.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Set up Rails Controller</h5>

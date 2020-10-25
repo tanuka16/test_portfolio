@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import {Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
 import styled, { keyframes } from 'styled-components';
 import { pulse } from 'react-animations';
 
@@ -83,7 +83,7 @@ class Projects extends Component  {
             </CardActions>
         </Card>
 
-        {/* project 5 */}
+        {/* project 5
         <Card className='card' shadow={5} style={{minWidth:'450', mergin: 'auto'}}>
             <CardTitle style={{color: '#fff', fontSize: '20px', height: '10em', background: 'url(https://miro.medium.com/max/710/1*9hd_8qR0CMZ8L0pVbFLjDw.png) center/ cover'}}>
               <h3 style={{marginTop:'150px'}}>Instagram Lite</h3>
@@ -93,7 +93,12 @@ class Projects extends Component  {
               <p style={{fontWeight:'bold'}}>Ruby</p>
               Instagram Lite is a social media app, allows users to create an account, post images, like pictures and add comments on other users account.
             </CardText>
+            <CardActions className="buttons" border>
+              <Button href="https://github.com/April17/module-one-final-project-guidelines-dumbo-web-051319" target='_blank' colored>GitHub</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
         </Card>
+        */}
 
 
         </div>
@@ -106,6 +111,7 @@ class Projects extends Component  {
       <div>
         <div className="projects-grid" >
         {/* use the tabs for future projects
+          import {Tabs, Tab, CardMenu, IconButton} from 'react-mdl';
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })}ripple>
           <Tab>Projects</Tab>
           <Tab>Blogs</Tab>
