@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import { Link } from 'react-router-dom';
+/*import { Link } from 'react-router-dom';*/
 import styled, { keyframes } from 'styled-components';
 import { bounceIn } from 'react-animations';
 
