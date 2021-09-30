@@ -25,7 +25,7 @@ class HomePage extends Component  {
                 <h1>Full Stack Web Developer</h1>
 
                 <hr/>
-                <p>Ruby | Ruby on Rails | JavaScript | React | HTML/CSS </p>
+                <p>JavaScript | React | Ruby | Ruby on Rails  | HTML/CSS </p>
 
                 <div className="social-links">
 
