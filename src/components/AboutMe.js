@@ -25,14 +25,12 @@ class About extends Component  {
 
             <p className="paragraph" style={{width:"85%", margin: 'auto', paddingTop:'1em', fontColor: '#7e7e7e'}}>
 
-            I am Tanuka Das, a Fullstack Developer, based in Jamaica, New York. I focus on implementing an intricate and detailed code.
+            I am Tanuka Das, a Fullstack Developer, based in New York City. I focus on implementing an intricate and detailed code.
             My fascination in coding began by adding computer science courses to my undergraduate studies and grew with developing and building web applications.
             Making a project go from a concept to life simultaneously challenges, intrigues and motivates me. Apart from coding I write technical blogs on
-            <a href="http://www.devwonderworld.com" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> devwonderworld</a>,
-            <a href="https://tanuka-das12.medium.com/" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> medium</a>, and
-            <a href="https://dev.to/tanuka16" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> dev</a>.
+            <a href="https://tanuka-das12.medium.com/" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> medium</a>.
             <br/>
-            When I am not working, I love spending time with my family, reading books, hiking, and exploring new places.
+            When I am not working, I love spending time with my family, reading books, hiking, exploring new places, and enjoy yummy desserts.
             </p>
             <div className="social-links">
 
@@ -47,11 +45,11 @@ class About extends Component  {
                   <i className="fa fa-github-square" aria-hidden="true" style={{color:'Dodgerblue', fontSize: '2em'}}/>
                 </a>
 
-              {/* blogging website */}
+              {/* blogging website  --> https://medium.com/@tanuka-das12 
                 <a href="https://devwonderworld.com" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-bold" aria-hidden="true" style={{color:'Dodgerblue', fontSize: '2em'}}/>
                 </a>
-
+              */}
               {/* Gmail
                 <a href = "mailto: tanuka.das12@gmail.com" >
                   <i className="fa fa-envelope" aria-hidden="true" style={{color:'Dodgerblue', fontSize: '3em'}}/>
@@ -93,7 +91,7 @@ class About extends Component  {
 
                   </ListItemContent>
                 </ListItem>
-                <p style={{textAlign: 'left',fontSize:"15px", margin: '20px 0 20px 0'}}>Interest: full-time, apprentship, internship </p>
+                <p style={{textAlign: 'left',fontSize:"15px", margin: '20px 0 20px 0', fontWeight: 'bold' }}>Interest: full-time, part-time, freelancing</p>
 
 
 
