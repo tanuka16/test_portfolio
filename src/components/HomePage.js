@@ -22,10 +22,10 @@ class HomePage extends Component  {
               />
               <Bounce>
               <div className="banner-text" style={{marginBottom: '100px'}}>
-                <h1>Full Stack Web Developer</h1>
+                <h1>Software Developer</h1>
 
                 <hr/>
-                <p>JavaScript | React | Ruby | Ruby on Rails  | HTML/CSS </p>
+                <p> Java | JavaScript | React | HTML/CS </p>
 
                 <div className="social-links">
 
