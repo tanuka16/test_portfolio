@@ -30,8 +30,8 @@ class Projects extends Component  {
 
             <CardActions className="buttons" border>
               <Button href="https://github.com/tanuka16/DoNation-Back-end" target='_blank' colored>GitHub</Button>
-              <Button href="https://donation-smile.herokuapp.com/" target='_blank' colored>Live Demo</Button>
-              <Button href="https://youtu.be/RnQherXmMkk" target='_blank' colored>Video Demo</Button>
+            {/*   <Button href="https://donation-smile.herokuapp.com/" target='_blank' colored>Live Demo</Button>
+              <Button href="https://youtu.be/RnQherXmMkk" target='_blank' colored>Video Demo</Button> */}
             </CardActions>
         </Card>
 
@@ -48,8 +48,8 @@ class Projects extends Component  {
 
             <CardActions className="buttons" border>
               <Button href="https://github.com/tlam212/Shoe_App" target='_blank' colored>GitHub</Button>
-              <Button href="https://houseofshoes-app.herokuapp.com/" target='_blank' colored>Live Demo</Button>
-              <Button href="https://youtu.be/t1xcK1T7Y8o" target='_blank' colored>Video Demo</Button>
+            {/*   <Button href="https://houseofshoes-app.herokuapp.com/" target='_blank' colored>Live Demo</Button>
+              <Button href="https://youtu.be/t1xcK1T7Y8o" target='_blank' colored>Video Demo</Button> */}
             </CardActions>
         </Card>
 

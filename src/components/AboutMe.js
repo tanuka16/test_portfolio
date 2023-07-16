@@ -25,7 +25,7 @@ class About extends Component  {
 
             <p className="paragraph" style={{width:"85%", margin: 'auto', paddingTop:'1em', fontColor: '#7e7e7e'}}>
 
-            I am Tanuka Das, a Fullstack Developer, based in New York City. I focus on implementing an intricate and detailed code.
+            I am Tanuka Das, a Software Developer, based in New York City. I focus on implementing an intricate and detailed code.
             My fascination in coding began by adding computer science courses to my undergraduate studies and grew with developing and building web applications.
             Making a project go from a concept to life simultaneously challenges, intrigues and motivates me. Apart from coding I write technical blogs on
             <a href="https://tanuka-das12.medium.com/" rel="noopener noreferrer" target="_blank" style = {{ textDecoration: "none" }}> medium</a>.
@@ -45,7 +45,12 @@ class About extends Component  {
                   <i className="fa fa-github-square" aria-hidden="true" style={{color:'Dodgerblue', fontSize: '2em'}}/>
                 </a>
 
-              {/* blogging website  --> https://medium.com/@tanuka-das12 
+                {/* Medium */}
+                <a href="https://tanuka-das12.medium.com/" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-medium" aria-hidden="true" style={{color:'Dodgerblue', fontSize: '2em'}}/>
+                </a>
+
+              {/* blogging website  --> https://medium.com/@tanuka-das12
                 <a href="https://devwonderworld.com" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-bold" aria-hidden="true" style={{color:'Dodgerblue', fontSize: '2em'}}/>
                 </a>

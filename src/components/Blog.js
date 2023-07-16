@@ -20,10 +20,10 @@ class Blog extends Component  {
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Markdown — An Easy & Fast to Learn Markup Language</h5>
             You probably never heard about it, or you did, but never thought about using it, or maybe you did use it and loved it as well...
-            <a href="https://devwonderworld.com/markdown-an-easy-fast-to-learn-markup-language/" target='_blank' rel="noopener noreferrer">more</a>
+            <a href="https://tanuka-das12.medium.com/markdown-a-easier-fast-to-learn-markup-language-305f1faaca5d" target='_blank' rel="noopener noreferrer">more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
-            <Button href="https://devwonderworld.com/markdown-an-easy-fast-to-learn-markup-language/" target='_blank' raised>Dev Wonder World</Button>
+            <Button href="https://tanuka-das12.medium.com/markdown-a-easier-fast-to-learn-markup-language-305f1faaca5d" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
 
@@ -34,10 +34,10 @@ class Blog extends Component  {
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Data Structure — Linked List | SINGLY LINKED LIST PRACTICE(LeetCode)</h5>
             A fundamental data structure used to solve many algorithms problems...
-            <a href="https://devwonderworld.com/data-structure-linked-list-singly-linked-list-practiceleetcode/" target='_blank' rel="noopener noreferrer">more</a>
+            <a href="https://tanuka-das12.medium.com/data-structure-linked-list-singly-linked-list-practice-leetcode-d4ca850f8d14" target='_blank' rel="noopener noreferrer">more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
-            <Button href="https://devwonderworld.com/data-structure-linked-list-singly-linked-list-practiceleetcode/" target='_blank' raised>Dev Wonder World</Button>
+            <Button href="https://tanuka-das12.medium.com/data-structure-linked-list-singly-linked-list-practice-leetcode-d4ca850f8d14" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
 
@@ -49,10 +49,10 @@ class Blog extends Component  {
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Debug JS Code with DevTool Network Tab</h5>
             In this article, I discuss the use of the network tab in Chrome DevTool inspect.The network panel is really useful for timing...
-            <a href="https://devwonderworld.com/debug-js-code-with-devtool-network-tab/" target='_blank' rel="noopener noreferrer">more</a>
+            <a href="https://tanuka-das12.medium.com/debug-js-code-with-devtool-network-tab-b86352071b38" target='_blank' rel="noopener noreferrer">more</a>
           </CardText>
           <CardActions className="blog-buttons" style={{textAlign:'center'}} border>
-            <Button href="https://devwonderworld.com/debug-js-code-with-devtool-network-tab/" target='_blank' raised>Dev Wonder World</Button>
+            <Button href="https://tanuka-das12.medium.com/debug-js-code-with-devtool-network-tab-b86352071b38" target='_blank' raised>Medium</Button>
           </CardActions>
         </Card>
 
@@ -115,7 +115,7 @@ class Blog extends Component  {
         </Card>
         {/* blog 5 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/blog5.jpeg)center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Components Architecture</h5>
@@ -129,7 +129,7 @@ class Blog extends Component  {
 
         {/* blog 4 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/blog1.png)center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Rails : Flash Hash</h5>
@@ -142,7 +142,7 @@ class Blog extends Component  {
         </Card>
         {/* blog 3 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/blog1.png) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Rails API From Scratch</h5>
@@ -156,7 +156,7 @@ class Blog extends Component  {
 
         {/* blog 2 */}
         <Card className='card' shadow={5} style={{minWidth:'400', mergin: 'auto'}}>
-          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(https://instabug.com/blog/wp-content/uploads/2018/10/Oct_Articles_01_Top-ReactNative-Apps.png) center/ cover'}}>
+          <CardTitle style={{color: '#fff', backgroundPosition: 'center', fontSize: '20px', height: '176px', width: '100%', background: 'url(images/blog5.jpeg) center/ cover'}}>
           </CardTitle>
           <CardText>
             <h5 style={{fontWeight:'bold', color: 'black'}}>Set up Rails Model</h5>

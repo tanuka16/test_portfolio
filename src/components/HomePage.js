@@ -39,13 +39,12 @@ class HomePage extends Component  {
                     <a href="https://github.com/tanuka16" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-github-square" aria-hidden="true"/>
                     </a>
-
-                  {/* Medium
+                    {/* Medium */}
                     <a href="https://tanuka-das12.medium.com/" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-medium" aria-hidden="true"/>
                     </a>
-                    */}
-                  {/* blogging website */}
+
+                  {/* blogging website
                     <a href="https://devwonderworld.com" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-bold" aria-hidden="true"/>
                     </a>
